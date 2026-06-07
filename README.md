@@ -1,16 +1,16 @@
-# 🚢 Port Waiting Time Predictor
+# Port Waiting Time Predictor
 
 A machine learning web application that predicts ship waiting time at ports based on various operational and environmental factors. Built with Flask and deployed on AWS EC2.
 
 ---
 
-## 🔍 About the Project
+## About the Project
 
 Port congestion is a major challenge in maritime logistics. This project uses a trained ML model to predict how long a ship will have to wait before getting a berth — helping ports and shipping companies plan operations more efficiently.
 
 ---
 
-## 🎯 Features
+## Features
 
 - Predicts waiting time (in hours) based on 7 input parameters
 - Clean and responsive web UI
@@ -20,7 +20,7 @@ Port congestion is a major challenge in maritime logistics. This project uses a 
 
 ---
 
-## 🧠 Input Parameters
+## Input Parameters
 
 | Parameter | Description |
 |---|---|
@@ -34,7 +34,7 @@ Port congestion is a major challenge in maritime logistics. This project uses a 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Framework:** Flask
@@ -44,7 +44,7 @@ Port congestion is a major challenge in maritime logistics. This project uses a 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 port-predictor/
@@ -60,7 +60,7 @@ port-predictor/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
@@ -85,7 +85,7 @@ App will start at: `http://localhost:5000`
 
 ---
 
-## 🚀 Deployment on AWS EC2
+## Deployment on AWS EC2
 
 1. Launch an EC2 instance (Ubuntu)
 2. Install Python and pip
@@ -102,7 +102,7 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 
 ---
 
-## 📊 Model Details
+## Model Details
 
 - **Algorithm:** Gradient Boosting Regressor
 - **Target Variable:** Waiting Time (hours)
